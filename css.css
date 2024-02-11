@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif; /* تعيين نوع الخط */
+    background-image:url(7501x4092-6multi-tasking2.jpg); /* تعيين صورة الخلفية */
+    background-size: cover; /* تغطية الخلفية كامل العنصر */
+    margin: 0; /* إزالة هوامش الصفحة */
+    display: flex; /* استخدام نمط عرض مرن */
+    justify-content: center; /* توسيط أفقي للعناصر */
+    align-items: center; /* توسيط عمودي للعناصر */
+    height: 100vh; /* ارتفاع الجسم يملأ الشاشة بالكامل */
+}
+
+.task-container {
+    background-color: #fff; /* لون خلفية عنصر container */
+    padding: 20px; /* هامش داخلي لعنصر container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* إضافة ظل للعنصر container */
+    border-radius: 8px; /* تحديد شكل الزوايا للعنصر container */
+    text-align: center; /* توسيط النص داخل العنصر container */
+}
+
+h1 {
+    color: #333; /* لون النص لعنصر h1 */
+}
+
+input {
+    padding: 8px; /* تحديد هامش داخلي لعنصر input */
+    margin-right: 5px; /* هامش يميني لعنصر input */
+}
+
+button {
+    padding: 8px 15px; /* تحديد هامش داخلي لعنصر button */
+    background-color: #007BFF; /* لون الخلفية لعنصر button */
+    color: #fff; /* لون النص لعنصر button */
+    border: none; /* إزالة الحدود لعنصر button */
+    cursor: pointer; /* تغيير شكل المؤشر عند التحويم فوق عنصر button */
+}
+
+ul {
+    list-style: none; /* إزالة نقاط القوائم */
+    padding: 0; /* إزالة التباعد الداخلي للقائمة */
+}
+
+li {
+    display: flex; /* استخدام نمط عرض مرن */
+    justify-content: space-between; /* توزيع العناصر بالتساوي على الشريط الأفقي */
+    align-items: center; /* توسيط عمودي للعناصر */
+    padding: 10px; /* هامش داخلي للعنصر li */
+    background-color: #eee; /* لون خلفية العنصر li */
+    margin: 5px 0; /* تحديد هوامش خارجية للعنصر li */
+    border-radius: 5px; /* تحديد شكل الزوايا للعنصر li */
+}
+
+.delete-btn {
+    background-color: #dc3545; /* لون الخلفية لزر الحذف */
+    color: #fff; /* لون النص لزر الحذف */
+    border: none; /* إزالة الحدود لزر الحذف */
+    padding: 5px 10px; /* تحديد هامش داخلي لزر الحذف */
+    cursor: pointer; /* تغيير شكل المؤشر عند التحويم فوق زر الحذف */
+}
